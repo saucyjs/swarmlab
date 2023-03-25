@@ -17,6 +17,7 @@
     "build": "tsc --build",
     "format": "prettier --write packages/**/*.{ts,json} src/*.ts !**/dist",
     "lint": "eslint src packages --fix",
+    "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Miles Nash <saucyjs@milesnash.com>",
@@ -35,6 +36,8 @@
     "@typescript-eslint/parser": "^5.56.0",
     "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.8.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
     "prettier": "^2.8.7",
     "ts-jest": "^29.0.5",
     "ts-node": "^10.9.1",
