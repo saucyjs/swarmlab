@@ -1,0 +1,14 @@
+{
+  "name": "@swarmlab/config",
+  "version": "0.0.1",
+  "description": "Load test configurations",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "autocannon": "^7.10.0"
+  }
+}

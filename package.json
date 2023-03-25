@@ -45,6 +45,7 @@
     "typescript": "^5.0.2"
   },
   "workspaces": [
-    "packages/hive-ui"
+    "packages/hive-ui",
+    "packages/config"
   ]
 }

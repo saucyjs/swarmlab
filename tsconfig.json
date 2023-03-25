@@ -5,5 +5,8 @@
     "rootDir": "./src"
   },
   "include": ["src"],
-  "references": [{ "path": "./packages/hive-ui/tsconfig-build.json" }]
+  "references": [
+    { "path": "./packages/config/tsconfig-build.json" },
+    { "path": "./packages/hive-ui/tsconfig-build.json" }
+  ]
 }
